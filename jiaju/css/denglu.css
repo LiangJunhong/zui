@@ -1,0 +1,285 @@
+/*
+* @Author: ASUS
+* @Date:   2018-02-19 10:45:23
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-02-20 03:45:33
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+	width: 100%;
+	overflow-x:hidden;
+	font-family: "苹方"；
+}
+.beijing{
+	width: 100%;
+	height: 100%;
+	background:#ffdb35;
+	position: fixed;
+	left: 0rem;
+	right: 0rem;
+	top: 0rem;
+	z-index: 10;
+	background-image: url('../img/denglu2x.png');
+	background-size:100% 100%;
+	background-repeat: no-repeat; 
+	background-position: center;	
+}
+.beijing .top{
+	width: 100%;
+	height: 0.88rem;
+	/* background:#ffdb35; */
+}
+.beijing .top .zuo{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: left;
+}
+.beijing .top .zhong{
+	width: 5.6rem;
+	height: 0.88rem;
+	/* background: green; */
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+	font-family:"苹方";font-weight:bold;
+}
+.beijing .top .you{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: left;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+	font-family:"苹方";font-weight:bold;
+}
+.top img{
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-bottom: 0.13rem;
+}
+.beijing .yuan1{
+	width: 0.11rem;
+	height: 0.11rem;
+	background:#fff;
+	float: left;
+	margin-top: 1.33rem;
+	margin-left: 2.18rem;
+	/* border: 0.02rem solid#dddddf; */
+	border-radius:50%;
+}
+.beijing .yuan{
+	width: 2.54rem;
+	height: 2.55rem;
+	/* background:#ffdb35; */
+	float: left;
+	margin-top: 0.64rem;
+	margin-left: 0.18rem;
+	border: 0.0308rem solid#7e7c7e;
+	border-radius:50%;
+
+}
+.beijing .yuan .yuaner{
+	width: 2.13rem;
+	height: 2.13rem;
+	/* background:#ffdb35; */
+	float: left;
+	margin-top: 0.17rem;
+	margin-left: 0.17rem;
+	border: 0.0308rem solid#fff;
+	border-radius:50%;
+
+}
+.beijing .yuan .yuansan{
+	width: 1.86rem;
+	height: 1.86rem;
+	/* background:#fff; */
+	float: left;
+	margin-top:-2.03rem;
+	margin-left: 0.34rem;
+	/* border: 0.0308rem solid#fff; */
+	border-radius:50%;
+}
+.beijing .yuan .yuansan img{
+	width: 1.88rem;
+	height: 1.88rem;
+}
+.beijing .yuan3{
+	width: 0.11rem;
+	height: 0.11rem;
+	background:#fff;
+	float: left;
+	margin-top: 2.86rem;
+	/* margin-left: 2.18rem; */
+	/* border: 0.02rem solid#dddddf; */
+	border-radius:50%;
+}
+.beijing .yuan4{
+	width: 0.23rem;
+	height: 0.23rem;
+	background:#fff;
+	float: left;
+	margin-top: 3.13rem;
+	margin-left: -1.53rem;
+	/* border: 0.02rem solid#dddddf; */
+	border-radius:50rem;
+}
+.beijing .yuan5{
+	width: 0.16rem;
+	height: 0.16rem;
+	background:#fff;
+	float: left;
+	margin-top: 3.54rem;
+	margin-left: -1.496rem;
+	/* border: 0.02rem solid#dddddf; */
+	border-radius:50%;
+}
+.beijing .yuan6{
+	width: 0.12rem;
+	height: 0.12rem;
+	background:#fff;
+	float: left;
+	margin-top: 3.9rem;
+	margin-left: -1.48rem;
+	/* border: 0.02rem solid#dddddf; */
+	border-radius:50%;
+}
+.beijing .deng{
+	width: 5.42rem;
+	height: 0.76rem;
+	background:#fff;
+	margin-top: 0.77rem;
+	margin-left: 1.03rem;
+	border-radius:0.1rem;
+	float: left;
+}
+.beijing .deng2{
+	width: 5.42rem;
+	height: 0.76rem;
+	background:#fff;
+	margin-top: 0.29rem;
+	margin-left: 1.03rem;
+	border-radius:0.1rem;
+	float: left;
+}
+.beijing .deng .wu{
+	width: 0.27rem;
+	height:0.33rem;
+	/* background: red; */ 
+	margin-left: 0.23rem;
+	margin-top: -0.48rem;
+	float: left;
+}
+.beijing .deng .wu img{
+	width: 0.29rem;
+	height:0.33rem;
+	margin-top: -2rem;
+}
+.beijing .deng .wenzi{
+	width: 1.72rem;
+	height:0.23rem;
+	/* background: red; */ 
+	margin-left: 0.7rem;
+	margin-top: 0.25rem;
+	float: left;
+	font-family:"苹方";font-weight:bold;
+	font-size: 0.24rem;
+	color: #bebfc0;
+}
+.beijing .deng2 .wan{
+	width: 0.24rem;
+	height:0.18rem;
+	/* background: red;  */
+	margin-right: 0.21rem;
+	margin-top: -0.55rem;
+	float: right;
+}
+.beijing .deng .wan img{
+	width: 0.24rem;
+	height:0.18rem;
+}
+.beijing .que{
+	width: 0.9rem;
+	height: 0.22rem;
+	/* background:#fff; */
+	margin-top: 0.14rem;
+	margin-right: 1.03rem;
+	border-radius:0.1rem;
+	float: right;
+	font-family:"苹方";font-weight:bold;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.beijing .ren{
+	width: 5.42rem;
+	height: 0.76rem;
+	background:#f9d530;
+	margin-top: 1.18rem;
+	margin-left: 1.03rem;
+	border-radius:1rem;
+	float: left;
+	font-family:"苹方";font-weight:bold;
+	font-size: 0.3rem;
+	color: #2a2b36;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.beijing .disan{
+	width: 5.42rem;
+	height: 0.76rem;
+	/* background:#f9d530; */
+	margin-top: 1rem;
+	margin-left: 1.03rem;
+	border-radius:1rem;
+	float: left;
+	font-family:"苹方";font-weight:bold;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.beijing .tubiao{
+	width: 5.42rem;
+	height: 0.88rem;
+	/* background:#f9d530; */
+	/* margin-top: 1rem; */
+	margin-left: 1.03rem;
+	/* border-radius:1rem; */
+	float: left
+}
+.beijing .tu{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: left;
+	margin-top: -0.3rem;
+}
+.beijing .tu img{
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-top: -2rem;
+}
+.beijing .tu2{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: left;
+	margin-left: 1.36rem;
+}
+.beijing .tu3{
+	width: 0.88rem;
+	height: 0.88rem;
+	/* background: red; */
+	float: right;
+}
